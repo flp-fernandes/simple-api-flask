@@ -1,0 +1,11 @@
+POST http://localhost:5000/create-user
+Content-Type: application/json
+
+{
+  "name": "Felps",
+  "email": "flp@frn.com"
+}
+
+###
+
+GET http://localhost:5000/get-user/666
